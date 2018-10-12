@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@font-face {
+font-family:merriweather;
+src:url('../fonts/merriweather.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+/* CSS Document */
+#wrapper {
+	margin-bottom: 10px;
+	width: 100%; 
+	align-content: center;
+}
+
+ #logo-part { 
+background-image: url(../imgs/banner.jpg);
+background-size: cover;
+height: 563px;
+text-align: center;
+color:#cdd0d3;
+margin:none;
+font-family: "merriweather", serif;
+}
+	
+nav ul li {
+list-style:none;
+display: inline-block;
+}
+.logo {
+margin-top:150px;
+width:400px;	
+}
+span h2{
+	width: 760px;
+	text-align: center;
+	padding-left: 100px;
+}
+#article-container {
+max-width:940px;
+margin-left: 250px;
+margin-right:200px;
+font-family: "merriweather", serif;
+}
+article h1 {
+color:#003764;
+font-size:36px;
+}
+article header a:link {
+	color:#003764;
+	text-decoration: none;
+}
+article header a:hover h1 {
+	color:#0067B7;
+}
+article p {
+	font-size: 15px;
+}
+footer {
+color: darkgrey;
+}
+footer a:link {
+	color:darkgray;
+	text-decoration: none;
+}
+footer a:visited {
+	color: darkgray;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;
+	color:darkgray;
+}
