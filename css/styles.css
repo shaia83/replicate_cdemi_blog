@@ -28,11 +28,6 @@ display: inline-block;
 margin-top:150px;
 width:400px;	
 }
-span h2{
-	width: 760px;
-	text-align: center;
-	padding-left: 100px;
-}
 #article-container {
 max-width:940px;
 margin-left: 250px;
