@@ -17,7 +17,7 @@ background-size: cover;
 height: 600px;
 text-align: center;
 color:#cdd0d3;
-margin:none;
+max-width: auto;
 }
 h2 {
 	font-weight: 300;
@@ -33,8 +33,9 @@ width:400px;
 }
 #article-container {
 max-width:940px;
-margin-left: 250px;
-margin-right:200px;
+margin-left: 156px;
+margin-right:156px;
+
 }
 article h1 {
 color:#003764;
@@ -52,6 +53,7 @@ article header a:hover h1 {
 article p {
 	font-size: 15px;
 	padding-bottom: 25px;
+	color:#3a4145;
 }
 footer {
 color: darkgrey;
