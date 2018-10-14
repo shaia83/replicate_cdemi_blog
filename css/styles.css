@@ -1,9 +1,10 @@
 @charset "UTF-8";
-@font-face {
-font-family:merriweather;
-src:url('../fonts/merriweather.ttf')  format('truetype'), /* Safari, Android, iOS */
-}
+
 /* CSS Document */
+body  {
+	font-family: "Merriweather", serif;
+}
+
 #wrapper {
 	margin-bottom: 10px;
 	width: 100%; 
@@ -13,13 +14,15 @@ src:url('../fonts/merriweather.ttf')  format('truetype'), /* Safari, Android, iO
  #logo-part { 
 background-image: url(../imgs/banner.jpg);
 background-size: cover;
-height: 563px;
+height: 600px;
 text-align: center;
 color:#cdd0d3;
 margin:none;
-font-family: "merriweather", serif;
 }
-	
+h2 {
+	font-weight: 300;
+	font-size: 20px;
+}
 nav ul li {
 list-style:none;
 display: inline-block;
@@ -32,11 +35,12 @@ width:400px;
 max-width:940px;
 margin-left: 250px;
 margin-right:200px;
-font-family: "merriweather", serif;
 }
 article h1 {
 color:#003764;
 font-size:36px;
+font-family: "Open Sans", sans-serif;
+
 }
 article header a:link {
 	color:#003764;
@@ -47,9 +51,12 @@ article header a:hover h1 {
 }
 article p {
 	font-size: 15px;
+	padding-bottom: 25px;
 }
 footer {
 color: darkgrey;
+font-family: "Open Sans", sans-serif;
+padding-bottom: 35px;
 }
 footer a:link {
 	color:darkgray;
