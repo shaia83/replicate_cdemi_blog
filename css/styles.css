@@ -35,8 +35,8 @@ nav ul li {
 
 #article-container {
 	max-width: 940px;
-	margin-left: 156px;
-	margin-right: 156px;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 article h1 {
