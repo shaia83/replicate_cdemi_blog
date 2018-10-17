@@ -1,70 +1,82 @@
 @charset "UTF-8";
 
 /* CSS Document */
-body  {
+body {
 	font-family: "Merriweather", serif;
-	margin:0px;
+	margin: 0px;
 }
- #logo-part { 
-background-image: url(../imgs/banner.jpg);
-background-position: center;
-background-size: cover;
-height: 650px;
-width: 100%;
-text-align: center;
-color:#cdd0d3;
+
+#logo-part {
+	background-image: url(../imgs/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 650px;
+	width: 100%;
+	text-align: center;
+	color: #cdd0d3;
 }
+
 h2 {
 	font-weight: 300;
 	font-size: 20px;
 }
+
 nav ul li {
-list-style:none;
-display: inline-block;
-padding-right: 20px;
+	list-style: none;
+	display: inline-block;
+	padding-right: 20px;
 }
 
 .logo {
-margin-top:150px;
-width:400px;
-height:auto;
+	margin-top: 150px;
+	width: 400px;
+	height: auto;
 }
+
 #article-container {
-max-width:940px;
-margin-left: 156px;
-margin-right:156px;
+	max-width: 940px;
+	margin-left: 156px;
+	margin-right: 156px;
 }
+
 article h1 {
-color:#003764;
-font-size:36px;
-font-family: "Open Sans", sans-serif;
+	color: #003764;
+	font-size: 36px;
+	font-family: "Open Sans", sans-serif;
 }
+
 article header a:link {
-	color:#003764;
+	color: #003764;
 	text-decoration: none;
 }
+
 article header a:hover h1 {
-	color:#0067B7;
+	color: #0067B7;
 }
+
 article p {
 	font-size: 15px;
 	padding-bottom: 25px;
-	color:#3a4145;
+	color: #3a4145;
 }
+
 article footer {
-color: darkgrey;
-font-family: "Open Sans", sans-serif;
-padding-bottom: 35px;
+	color: darkgrey;
+	font-family: "Open Sans", sans-serif;
+	padding-bottom: 35px;
 }
+
 article footer a:link {
-	color:darkgray;
+	color: darkgray;
 	text-decoration: none;
 }
+
 article footer a:visited {
 	color: darkgray;
 	text-decoration: none;
 }
+
 article footer a:hover {
 	text-decoration: underline;
-	color:darkgray;
+	color: darkgray;
 }
