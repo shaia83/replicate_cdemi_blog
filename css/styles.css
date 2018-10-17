@@ -16,18 +16,24 @@ body {
 	color: #cdd0d3;
 }
 
-h2 {
+#logo-part section {
+	max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo-part h2 {
 	font-weight: 300;
 	font-size: 20px;
 }
 
-nav ul li {
+#logo-part nav ul li {
 	list-style: none;
 	display: inline-block;
 	padding-right: 20px;
 }
 
-.logo {
+#logo-part .logo {
 	margin-top: 150px;
 	width: 400px;
 	height: auto;
